@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "expo-brightness",
-    "slug": "expo-brightness",
+    "name": "expo-brightness-demo",
+    "slug": "expo-brightness-demo",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -21,10 +21,17 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.melbius_.expobrightness",
+      "permissions": ["WRITE_SETTINGS"]
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "23bb5678-b386-47b1-81e0-8114dee12225"
+      }
     }
   }
 }
